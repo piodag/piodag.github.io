@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Passing Bablock is biased
+title: Passing Bablock is biased at low data precision (almost always)
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/pababias/PBequi_pre_3.png)
@@ -13,6 +13,6 @@ Attention has fallen on checking the issue of bias when the data have low precis
 
 A first limited simulation with the same method published in 2021 (but with a resolution of 250 replications instead of 400) shows that indeed PBequi is definitely a big step forward in this as well. The coarse bias is dramatically reduced. But unfortunately it is not clearly eliminated. Note in this regard the asymmetry of the power curves at the 80 percent level (validation not rejected at 20 percent) in green in the graph provided here. Further investigation is needed to completely exclude the bias or to asses its magnitude.
 
-Take home message. I suggest to all those who intend to use the PaBa method to abandon the classical 1983 algorithm in favor of the equivariant version offered by the R {mcr} package.
+Take home message. I suggest to all those who intend to use the PaBa method to abandon the classical 1983 algorithm in favour of the equivariant version offered by the R {mcr} package.
 
 Remark: Unfortunately in these first runs at low data precision some unclear stability problems of the PBequi function in R prevented a simulation of the bootstrapped CI methods. It’s not clear if this issue is a local computational limit arising from the limited IT resources or something else.
