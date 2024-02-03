@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Passing Bablock is biased at low data precision (almost always)
+title: Passing Bablock is biased at low data precision (thus almost always)
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/pababias/PBequi_pre_3.png)
