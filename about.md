@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+PhD sc. nat. ETH, DAS appl. stat. ETH - Statistics consultant
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Lecturer at the [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/home/sss/tecnico-in-analisi-biomedica/) in the graduate course for technicians in biomedical analysis
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[gfwp@ticino.com](mailto:gfwp@ticino.com)
