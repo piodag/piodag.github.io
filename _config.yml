@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Dr Giorgio Pioda
+name: Giorgio Pioda
 
 # Short bio or description (displayed in the header)
 description: Statistician by chance (but not so much) - with a PhD in chemistry
@@ -21,15 +21,15 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: piodag
   instagram:
-  linkedin:
+  linkedin: piodag
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  twitter:
+  stackoverflow: 
+  youtube: 
+  googleplus:
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -84,3 +84,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - ['*.Rmd']
+  
