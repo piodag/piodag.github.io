@@ -1,4 +1,17 @@
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+src/*.o
+src/*.so
+src/*.dll
