@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Bias and Jackknife - Paba vs MDeming vs Deming
+title: "Bias and Jackknife - Paba vs MDeming vs Deming"
+subtitle: "AOC shows a marked bias for PBequi"
 ---
 
 ![High resolution]({{ site.baseurl }}/images/jack4/Jack4_1_1.png)
@@ -19,7 +20,7 @@ Of the methods tested, the only one that proved to be perfectly symmetrical was 
 
 The graph shows a marked asymmetry on the right-hand side of the curve for the PBequi methods. There is a strange hump at the slope of about 1.05.
 
-For the PBequi regression, it is also striking that it was not even possible to perform the test in combination with the CIs calculated with jackknife. The algorithm is apparently not stable. It was fortunately possible to run a preview with n=50 and from what little we can see, it seems that the problem really lies in the method itself and not a computer problem. In fact, with slopes of 1, too many regressions are rejected. See the image below in this regard.
+For the PBequi regression, it is also striking that it was not even possible to perform the test in combination with the CIs calculated with jackknife. The algorithm is apparently not stable. It was fortunately possible to run a preview with n=50 and from what little we can see, it seems that the problem really lies in the method itself and not in a computer problem. In fact, with slopes of 1, too many regressions are rejected. See the image below in this regard.
 
 ![Jackknife problems]({{ site.baseurl }}/images/jack4/Jack1_1.png)
 
@@ -29,6 +30,8 @@ M-Deming seems to be much more symmetrical. It is also a little more conservativ
 
 ![MDeming and MMDeming]({{ site.baseurl }}/images/jack4/Jack4_2.png)
 
-More precise data with AUC integrals and mu coefficient estimates will follow. A second run at n=1000 for reproducibility is going to be performed very soon.
+A second run at n=1000 for reproducibility is going to be performed very soon.
+
+From the first integrations (*AOC()* from *{DescTools}* package) it seems that the integral proportion ratio between the right side of the curve [1;max) and the whole curve [min;max] is about 0.4997 for bootstrapped Deming BCa, 0.50572 for JE/MD Deming,  0.50575 for analytical Deming, 0.50943 for MDeming jackknife, 0.51086 for MM-Deming Jackknife and whopping values of 0.52213 for PBequi methodlarge=F and 0.52669 for the default PBequi. Analytical PaBa is out of contest with 0.71375 with no surprise.
 
 More precise data with AUC integrals and mu coefficient estimates will also follow.
