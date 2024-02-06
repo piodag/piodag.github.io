@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bias with AUC - PBequi, Paba, Deming, MDeming, MMDeming"
+title: "Bias with AUC - PBequi, PaBa, Deming, MDeming, MMDeming"
 ---
 
 ![High resolution]({{ site.baseurl }}/images/jack4/Jack4_1_1.png)
@@ -25,12 +25,14 @@ For the PBequi regression, it is also striking that it was not even possible to 
 
 It is assumed that there may be a role for ties. The impossibility of testing bootstrapped methods has already been reported previously.
 
-M-Deming seems to be much more symmetrical. It is also a little more conservative. Here below a comparison of M-Deming (jackknife CI) other methods. The most robust method, MMDeming, is the most conservative. With MMDeming a strong outlier receives a weighting factor of zero and is totally ignored. (In PaBa an outlier still moves the rank of the pairwise calculated slopes.)
+M-Deming seems to be much more symmetrical. It is also a little more conservative. Here below a comparison of M-Deming (jackknife CI) together other methods. The most robust method, MMDeming, is the most conservative. With MMDeming a strong outlier receives a weighting factor of zero and is totally ignored. (In PaBa an outlier still moves the rank of the pairwise calculated slopes.)
 
 ![MDeming and MMDeming]({{ site.baseurl }}/images/jack4/Jack4_2.png)
 
 A second run at n=1000 for reproducibility is going to be performed very soon.
 
-From the first integrations (*AUC()* from *{DescTools}* package) it seems that the integral proportion ratio between the right side of the curve [1;max) and the whole curve [min;max] is about 0.49972 for bootstrapped Deming BCa, 0.50572 for JE/MD Deming,  0.50575 for analytical Deming, 0.50943 for MDeming jackknife, 0.51086 for MM-Deming Jackknife and whopping values of 0.52213 for PBequi methodlarge=F and 0.52669 for the default PBequi. Analytical PaBa is out of contest with 0.71375 with no surprise.
+From the first integrations (*AUC()* from *{DescTools}* package, full numeric integral, no non linear regression) it seems that the integral proportion ratio between the right side of the curve [1;max) and the whole curve [min;max] is about 0.49972 for bootstrapped Deming BCa, 0.50572 for JE/MD Deming,  0.50575 for analytical Deming, 0.50943 for MDeming jackknife, 0.51086 for MM-Deming Jackknife and whopping values of 0.52213 for PBequi methodlarge=F and 0.52669 for the default PBequi. Analytical PaBa is out of contest with 0.71375 with no surprise.
+
+Borrowing the concept of *enantiomeric excess (e.e.)* from chemistry we may state that the *right side excess* is 0.056% for BCa bootstrappd Deming, 1.14% for Deming JE/MD, 1.15% for analytical Deming, 1.89% for MDeming Jackknife, 2.17% for MMDeming Jackknife, 4.43% for analytical PBequi (methodlarge=F) and 5.34% for default analytical PBequi. 
 
 More precise data with AUC integrals and mu coefficient estimates will follow.
