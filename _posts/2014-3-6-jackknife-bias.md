@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bias with AOC - PBequi / Paba / Deming / MDeming / MMDeming"
+title: "Bias with AOC - PBequi, Paba, Deming, MDeming, MMDeming"
 ---
 
 ![High resolution]({{ site.baseurl }}/images/jack4/Jack4_1_1.png)
