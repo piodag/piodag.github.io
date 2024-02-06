@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bias with AOC - PBequi, Paba, Deming, MDeming, MMDeming"
+title: "Bias with AUC - PBequi, Paba, Deming, MDeming, MMDeming"
 ---
 
 ![High resolution]({{ site.baseurl }}/images/jack4/Jack4_1_1.png)
@@ -31,6 +31,6 @@ M-Deming seems to be much more symmetrical. It is also a little more conservativ
 
 A second run at n=1000 for reproducibility is going to be performed very soon.
 
-From the first integrations (*AOC()* from *{DescTools}* package) it seems that the integral proportion ratio between the right side of the curve [1;max) and the whole curve [min;max] is about 0.49972 for bootstrapped Deming BCa, 0.50572 for JE/MD Deming,  0.50575 for analytical Deming, 0.50943 for MDeming jackknife, 0.51086 for MM-Deming Jackknife and whopping values of 0.52213 for PBequi methodlarge=F and 0.52669 for the default PBequi. Analytical PaBa is out of contest with 0.71375 with no surprise.
+From the first integrations (*AUC()* from *{DescTools}* package) it seems that the integral proportion ratio between the right side of the curve [1;max) and the whole curve [min;max] is about 0.49972 for bootstrapped Deming BCa, 0.50572 for JE/MD Deming,  0.50575 for analytical Deming, 0.50943 for MDeming jackknife, 0.51086 for MM-Deming Jackknife and whopping values of 0.52213 for PBequi methodlarge=F and 0.52669 for the default PBequi. Analytical PaBa is out of contest with 0.71375 with no surprise.
 
 More precise data with AUC integrals and mu coefficient estimates will follow.
