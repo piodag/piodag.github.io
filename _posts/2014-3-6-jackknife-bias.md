@@ -33,6 +33,6 @@ A second run at n=1000 for reproducibility is going to be performed very soon.
 
 From the first integrations (*AUC()* from *{DescTools}* package, full numeric integral, no non linear regression) it seems that the integral proportion ratio between the right side of the curve [1;max) and the whole curve [min;max] is about 0.49972 for bootstrapped Deming BCa, 0.50572 for JE/MD Deming,  0.50575 for analytical Deming, 0.50943 for MDeming jackknife, 0.51086 for MM-Deming Jackknife and whopping values of 0.52213 for PBequi methodlarge=F and 0.52669 for the default PBequi. Analytical PaBa is out of contest with 0.71375 with no surprise.
 
-Borrowing the concept of *enantiomeric excess (e.e.)* from chemistry we may state that the *right side excess* is -0.056% for BCa bootstrappd Deming, 1.14% for Deming JE/MD, 1.15% for analytical Deming, 1.89% for MDeming Jackknife, 2.17% for MMDeming Jackknife, 4.43% for analytical PBequi (methodlarge=F) and 5.34% for default analytical PBequi. 
+Borrowing the concept of *enantiomeric excess (e.e.)* from chemistry we may state that the *right side excess* is -0.056% for BCa bootstrapped Deming, 1.14% for Deming JE/MD, 1.15% for analytical Deming, 1.89% for MDeming Jackknife, 2.17% for MMDeming Jackknife, 4.43% for analytical PBequi (methodlarge=F) and 5.34% for default analytical PBequi. 
 
 More precise data with AUC integrals and mu coefficient estimates will follow.
