@@ -5,7 +5,7 @@ title: "PBequi unusable with Jackknife at low data precision"
 
 ![Jackknife]({{ site.baseurl }}/images/jack4/PBequiJackCollapse.png)
 
-An attempt is made to understand why previous experiments with PBequi regression combined with confidence intervals calculated with Jackknife have failed and why, as reported in the previous post of Feb. 6, there are too many rejections of the null hypothesis when the slope is exactly 1.
+An attempt is made to understand why previous experiments with PBequi regression combined with confidence intervals calculated with Jackknife have failed and why, as reported in the previous [post of Feb. 6](https://piodag.github.io/jackknife-bias/), there are too many rejections of the null hypothesis when the slope is exactly 1.
 
 A plot of the individual intercept/slope pairs was plotted in analogy to what is usually done with bootstrap experiments with a data set analysed with PBequi and, as comparison, the MDeming regression of the mcrPioda package (install_github("piodag/mcrPioda").
 
