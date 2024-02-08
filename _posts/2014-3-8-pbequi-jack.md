@@ -15,7 +15,7 @@ Thus PBequi can not be paired with Jackknife reliably.
 
 Further the very same data set under bootstrap conditions (BCa as CI choice, but it's not that relevant here) gives the following picture.
 
-![High resolution]({{ site.baseurl }}/images/jack4/PBequiBootstrapCollapse.png)
+![High resolution]({{ site.baseurl }}/images/jack4/PBequiBootCollapse.png)
 
 The bootstrap pairs cloud shows high accumulation. A great majority of pairs has slope=1. Moreover, the cloud has a strongly asymmetric aspect. Apparently the slopes > 1 are more likely to occur. Thus PBequi seems to have a bad behaviour also if paired with bootstrap if the data is rounded to low 2x2 digit precision.
 
