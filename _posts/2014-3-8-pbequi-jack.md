@@ -11,7 +11,13 @@ A plot of the individual intercept/slope pairs was plotted in analogy to what is
 
 With 2-significant-digit precision of the data one can see how the jackknife variance of slope and intercept for the PBequi regression collapses to zero. On the x-axis we see artefacts caused by the binary representation of the data, on the y-axis not even that and the slopes are all strictly equal to 1. The colour saturation is adjusted to show the overlap of the points.
 
-Thus PBequi can not be paired with Jackknife reliably. And also for bootstrap methods further investigations are needed.
+Thus PBequi can not be paired with Jackknife reliably.
+
+Further the very same data set under bootstrap conditions (BCa as CI choice, but it's not that relevant here) gives the following picture.
+
+![High resolution]({{ site.baseurl }}/images/jack4/PBequiBootstrapCollapse.png)
+
+The bootstrap pairs cloud shows high accumulation. A great majority of pairs has slope=1. Moreover, the cloud has a strongly asymmetric aspect. Apparently the slopes > 1 are more likely to occur. Thus PBequi seems to have a bad behaviour also if paired with bootstrap if the data is rounded to low 2x2 digit precision.
 
 The data set was created with set.seed(202402), so the experiment is easily replicable.
 
