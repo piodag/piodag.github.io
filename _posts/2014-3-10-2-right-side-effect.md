@@ -32,9 +32,11 @@ probability of not rejecting slopes greater than 1 compared to slopes
 less than 1.
 
 
+
 |                              | r. s.  vol. ratio |  r.s.e     |
 | :--------------------------- | :---------------: | :--------: |
 | Deming - anal.               |     0.5076242     | 1.5248311  |
+
 
 
 Below is reported a plot for the M and MM- Deming methods. These methods
