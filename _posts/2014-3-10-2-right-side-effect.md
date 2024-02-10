@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Right side effect and bias in MethComp"
+title: "Right side effect and bias in MethComp at 2x2 digit precision"
 ---
 
 ![Second simulation one]({{ site.baseurl }}/images/2024-03-10-right-side-effect/run2im1-1.png)
