@@ -3,7 +3,7 @@ layout: post
 title: "Right side effect and bias in MethComp"
 ---
 
-![Second simulation one]({{ site.baseurl }}/images/2024-03-10-right-side-effect/figure-gfm/run2im1-1.png)
+![Second simulation one]({{ site.baseurl }}/images/2024-03-10-right-side-effect/run2im1-1.png)
 
 A new experiment (at 2x2 digit precision) was carried out to reproduce
 and confirm the bias of the various Passing Bablok methods. It was
