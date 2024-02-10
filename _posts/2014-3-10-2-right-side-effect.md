@@ -9,7 +9,7 @@ A new experiment (at 2x2 digit precision) was carried out to reproduce
 and confirm the bias of the various Passing Bablok methods. It was
 chosen to increase the resolution in the tails: one point for every
 0.002 units in the interval \[0.9;1.1\] for a total of 109 points. Each
-point consists of aproportion over 1000 regressions. The Deming -
+point consists of a proportion over 1000 regressions. The Deming -
 jackknife method was added as additional reference to the list.
 
 The Deming bootstrap BCa method is again shown to be particularly
