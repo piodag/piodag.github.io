@@ -31,19 +31,19 @@ for the default variant. Basically, there is a bias and an increased
 probability of not rejecting slopes greater than 1 compared to slopes
 less than 1.
 
+Below is reported a plot for the M and MM- Deming methods. These methods
+are slightly more conservative.
 
-|     Methods                  | r. s.  vol. ratio |  r.s.e %   |
-|:-----------------------------|:-----------------:|:----------:|
-| Deming - anal.               |     0.5076242     | 1.5248311  |
-| Deming - jack.               |     0.5072365     | 1.4473065  |
-| Deming - boot BCa            |     0.4991186     | -0.1762712 |
-| PBequi - anal.               |     0.5239478     | 4.7895647  |
-| PBequi methodlarge=F - anal. |     0.5190940     | 3.8188037  |
-| PaBa - anal.                 |     0.7123302     | 42.4660319 |
-| MDeming - jack.              |     0.5094370     | 1.8874076  |
-| MMDeming - jack.             |     0.5138581     | 2.7716215  |
-| Deming - JE MD 1%            |     0.5078349     | 1.5669720  |
+![Second simulation two]({{ site.baseurl }}/images/2024-03-10-right-side-effect/run2im2-1.png)
 
-Table of r.s.e.
+M- and MM-Deming are more symmetrical than the Passing Bablok methods.
+For MDeming jackknife the r.s.e value is just slight higher than that of
+the reference Deming jackknife variant. For MMDeming, on the other hand,
+there is an higher value which is still lower than those recorded by the
+nonparametric methods.
+
+Finally the Deming test performed with Mahalanobis Distances (JE MD) at
+1% shows r.s.e and asymmetry very similar to the Deming analytical and
+jackknife methods.
 
 
