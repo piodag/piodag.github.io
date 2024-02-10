@@ -33,7 +33,7 @@ less than 1.
 
 
 
-| Methods                       | r. s.  vol. ratio |  r.s.e     |
+| Methods                       | r. s.  vol. ratio |  r.s.e %   |
 | :---------------------------- | :---------------: | :--------: |
 | Deming \- anal.               |     0.5076242     | 1.5248311  |
 | Deming \- jack.               |     0.5072365     | 1.4473065  |
@@ -43,7 +43,7 @@ less than 1.
 | PaBa \- anal.                 |     0.7123302     | 42.4660319 |
 | MDeming \- jack.              |     0.5094370     | 1.8874076  |
 | MMDeming \- jack.             |     0.5138581     | 2.7716215  |
-| Deming \- JE MD 1\%           |     0.5078349     | 1.5669720  |
+| Deming \- JE MD 1%            |     0.5078349     | 1.5669720  |
 
 Table of r.s.e.
 
