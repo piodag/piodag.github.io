@@ -48,7 +48,7 @@ Table of r.s.e.
 Below is reported a plot for the M and MM- Deming methods. These methods
 are slightly more conservative.
 
-![Jack2]({{ site.baseurl }}/images/2024-03-10-right-side-effect_files/figure-gfm/run2im2-1.png)
+![Jack2]({{ site.baseurl }}/images/2024-03-10-right-side-effect_files/run2im2-1.png)
 
 M- and MM-Deming are more symmetrical than the Passing Bablok methods.
 For MDeming jackknife the r.s.e value is just slight higher than that of
