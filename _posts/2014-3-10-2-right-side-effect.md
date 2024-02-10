@@ -36,7 +36,9 @@ less than 1.
 |                              | r. s.  vol. ratio |  r.s.e     |
 | :--------------------------- | :---------------: | :--------: |
 | Deming - anal.               |     0.5076242     | 1.5248311  |
-
+| Deming - jack.               |     0.5072365     | 1.4473065  |
+| Deming - boot. BCa           |     0.4991186     | -0.1762712 |
+| PBequi - anal.               |     0.5239478     | 4.7895647  |
 
 
 Below is reported a plot for the M and MM- Deming methods. These methods
