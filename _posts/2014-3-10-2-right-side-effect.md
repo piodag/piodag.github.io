@@ -32,7 +32,7 @@ probability of not rejecting slopes greater than 1 compared to slopes
 less than 1.
 
 
-|                              | r. s.  vol. ratio |  r.s.e %   |
+|     Methods                  | r. s.  vol. ratio |  r.s.e %   |
 |:-----------------------------|:-----------------:|:----------:|
 | Deming - anal.               |     0.5076242     | 1.5248311  |
 | Deming - jack.               |     0.5072365     | 1.4473065  |
