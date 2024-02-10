@@ -12,7 +12,7 @@ package.json
 .Rhistory
 .RData
 .Ruserdata
-*.Rmd
+.Rmd
 src/*.o
 src/*.so
 src/*.dll
