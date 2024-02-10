@@ -85,7 +85,5 @@ exclude:
   - README.md
   - CNAME
   - ['*.Rmd']
-  - [_posts/*.Rmd]
-  - ['_posts/*.Rmd']
   
   
