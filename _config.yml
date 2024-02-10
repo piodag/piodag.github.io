@@ -84,7 +84,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - [data_set]
-  - [snippet]
+
   
   
