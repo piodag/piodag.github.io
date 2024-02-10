@@ -43,7 +43,7 @@ less than 1.
 | PaBa \- anal.                 |     0.7123302     | 42.4660319 |
 | MDeming \- jack.              |     0.5094370     | 1.8874076  |
 | MMDeming \- jack.             |     0.5138581     | 2.7716215  |
-| Deming \- JE MD 1%            |     0.5078349     | 1.5669720  |
+| Deming \- JE MD 1\%           |     0.5078349     | 1.5669720  |
 
 Table of r.s.e.
 
