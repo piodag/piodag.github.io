@@ -59,3 +59,5 @@ nonparametric methods.
 Finally the Deming test performed with Mahalanobis Distances (JE MD) at
 1% shows r.s.e and asymmetry very similar to the Deming analytical and
 jackknife methods.
+
+Test
