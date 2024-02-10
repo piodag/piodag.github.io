@@ -39,7 +39,13 @@ less than 1.
 | Deming - jack.               |     0.5072365     | 1.4473065  |
 | Deming - boot. BCa           |     0.4991186     | \-0.1762712 |
 | PBequi - anal.               |     0.5239478     | 4.7895647  |
+| PBequi methodlarge=F - anal. |     0.5190940     | 3.8188037  |
+| PaBa - anal.                 |     0.7123302     | 42.4660319 |
+| MDeming - jack.              |     0.5094370     | 1.8874076  |
+| MMDeming - jack.             |     0.5138581     | 2.7716215  |
+| Deming - JE MD 1%            |     0.5078349     | 1.5669720  |
 
+Table of r.s.e.
 
 Below is reported a plot for the M and MM- Deming methods. These methods
 are slightly more conservative.
