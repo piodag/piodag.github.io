@@ -86,5 +86,6 @@ exclude:
   - CNAME
   - ['*.Rmd']
   - [_posts/*.Rmd]
+  - ['_posts/*.Rmd']
   
   
