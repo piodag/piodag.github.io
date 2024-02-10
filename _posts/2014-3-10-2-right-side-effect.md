@@ -30,3 +30,20 @@ fact, the r.s.e stands at 3.8% for the methodlarge=F variant and 4.8%
 for the default variant. Basically, there is a bias and an increased
 probability of not rejecting slopes greater than 1 compared to slopes
 less than 1.
+
+
+|                              | r. s.  vol. ratio |  r.s.e %   |
+|:-----------------------------|:-----------------:|:----------:|
+| Deming - anal.               |     0.5076242     | 1.5248311  |
+| Deming - jack.               |     0.5072365     | 1.4473065  |
+| Deming - boot BCa            |     0.4991186     | -0.1762712 |
+| PBequi - anal.               |     0.5239478     | 4.7895647  |
+| PBequi methodlarge=F - anal. |     0.5190940     | 3.8188037  |
+| PaBa - anal.                 |     0.7123302     | 42.4660319 |
+| MDeming - jack.              |     0.5094370     | 1.8874076  |
+| MMDeming - jack.             |     0.5138581     | 2.7716215  |
+| Deming - JE MD 1%            |     0.5078349     | 1.5669720  |
+
+Table of r.s.e.
+
+
