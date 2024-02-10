@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Right side effect and bias in MethComp at 2x2 digit precision"
+title: "Right side excess and bias in MethComp at 2x2 digit precision"
 ---
 
 ![Second simulation one]({{ site.baseurl }}/images/2024-03-10-right-side-effect/run2im1-1.png)
@@ -14,7 +14,7 @@ jackknife method was added as additional reference to the list.
 
 The Deming bootstrap BCa method is again shown to be particularly
 symmetric. The Deming analytic and jackknife methods are very similar to
-each other, with a slight **right-side effect (r.s.e)**. The power
+each other, with a slight **right-side excess (r.s.e)**. The power
 curves of the three Deming methods look anyway very similar. A very
 light asymmetry can be understood as the effect of the fact that the
 slopes distribution is not perfectly normal. Only testing for the angles
