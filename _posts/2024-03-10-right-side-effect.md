@@ -3,7 +3,7 @@ layout: post
 title: "Right side effect and bias in MethComp"
 ---
 
-![Jack1]({{ site.baseurl }}/images/2024-03-10-right-side-effect_files/figure-gfm/run2im1-1.png)
+![Second simulation one]({{ site.baseurl }}/images/2024-03-10-right-side-effect/figure-gfm/run2im1-1.png)
 
 A new experiment (at 2x2 digit precision) was carried out to reproduce
 and confirm the bias of the various Passing Bablok methods. It was
@@ -48,7 +48,7 @@ Table of r.s.e.
 Below is reported a plot for the M and MM- Deming methods. These methods
 are slightly more conservative.
 
-![Jack2]({{ site.baseurl }}/images/2024-03-10-right-side-effect_files/run2im2-1.png)
+![Second simulation two]({{ site.baseurl }}/images/2024-03-10-right-side-effect/run2im2-1.png)
 
 M- and MM-Deming are more symmetrical than the Passing Bablok methods.
 For MDeming jackknife the r.s.e value is just slight higher than that of
