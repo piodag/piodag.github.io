@@ -84,6 +84,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - ['*.Rmd']
   
   
