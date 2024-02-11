@@ -3,7 +3,7 @@ layout: post
 title: "Jackknife pairs collinearity for Passing Bablok methods"
 ---
 
-![Jackknife collinearity]({{ site.baseurl }}/images/jack4/jack3x3summary.png)
+![Jackknife collinearity]({{ site.baseurl }}/images/jack3x3summary.png)
 
 Using 3 significant figures instead of two, it is spontaneous to try to reintroduce the jackknife method for PBequi. However, stability problems are again encountered in high-resolution experiments.
 
