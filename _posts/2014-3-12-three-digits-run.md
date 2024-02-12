@@ -19,6 +19,14 @@ approx. 1.36% r.s.e.
 | :---------------------------- | :---------------: | :----------: |
 | Deming \- anal.               |     0.5075293     |  1.5058635   |
 | Deming \- jack.               |     0.5059993     |  1.1998674   |
+| Deming \- boot BCa            |    0.4998623     |  \-0.0275387 |
+| PBequi \- anal.               |    0.5105528     |  2.1105656   |
+| PBequi methodlarge=F \- anal. |    0.5112202     |  2.2440393   |
+| PaBa \- anal.                 |    0.5220235     |  4.4047071   |
+| PBequi \- jack.               |    0.5067896     |  1.3579233   |
+| MDeming \- jack.              |    0.5075982     |  1.5196464   |
+| MMDeming \- jack.             |    0.5113902     |  2.2780404   |
+| Deming \- JE MD 1%            |    0.5030620     |  0.6123919   |
 
 Table of r.s.e. at 3x3 digits precision 
 
