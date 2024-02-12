@@ -14,7 +14,10 @@ jackknife CI performs better that the analytical version with
 approx. 1.36% r.s.e.
 
 
-Table here
+| Methods                       | r. s. vol. ratio  |   r.s.e%     |
+| :---------------------------- | :---------------: | :----------: |
+| Deming \- anal.               |     0.5075293     |  1.5058635   |
+| Deming \- jack.               |     0.5059993     |  1.1998674   |
 
 
 Below is also reported a plot for the M- and MM-Deming methods. M-Deming is
