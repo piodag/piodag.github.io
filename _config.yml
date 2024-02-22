@@ -60,8 +60,7 @@ version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
-  math_engine: katex
-     math_engine_opts: {}
+  math_engine: mathjax
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
@@ -78,10 +77,6 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - katex # Math
-  - kramdown-math-katex # Math
-  - execjs # Math
-  - ducktape # Math
 
 # Exclude these files from your production _site
 exclude:
