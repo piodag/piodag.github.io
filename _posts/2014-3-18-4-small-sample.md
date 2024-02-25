@@ -18,4 +18,5 @@ and *Y* ). Imagine that the target is to reject the null Hypothesis of
 With Bayesian Deming regression and the MD test it is possible. The
 simulation is run with *df = 1* to provide maximal robustness.
 
+
 ![bdpPlotBE]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
