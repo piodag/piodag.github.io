@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bayesian Deming regression - Small sample example"
-date: 2024-02-25 19:00:00
+date: 2024-02-25 18:40:00
 ---
 
 Imagine a data set of only 7 pairs of observation for two methods ( *X*
