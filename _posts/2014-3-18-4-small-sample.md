@@ -9,7 +9,7 @@ and *Y* ). Imagine that the target is to reject the null Hypothesis of
 *slope = 1* and *intercept = 0*.
 
 
-|       |        |        |        |        |        |        |        |
+|       |   1    |   2    |   3    |   4    |   5    |   6    |  7     |
 | :---- | -----: | -----: | -----: | -----: | -----: | -----: | -----: |
 |  X    | 38.0   | 39.8   |  38.0  |  26.9  |  37.5  |  33.2  |  36.9  |
 |  Y    | 30.8   | 33.7   |  26.1  |  21.5  |  33.9  |  26.9  |  29.7  |
@@ -19,4 +19,4 @@ With Bayesian Deming regression and the MD test it is possible. The
 simulation is run with *df = 1* to provide maximal robustness.
 
 
-![bdpPlotBE]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
+![Small bdpPlotBE]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
