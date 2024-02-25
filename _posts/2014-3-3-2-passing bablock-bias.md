@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Passing Bablock is biased at low data precision (thus almost always)
-date: 2024-02-03 14:53:00
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/pababias/PBequi_pre_3.png)

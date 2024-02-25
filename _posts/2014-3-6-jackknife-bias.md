@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Bias with AUC - PBequi, PaBa, Deming, MDeming, MMDeming"
-date: 2024-02-06 18:35:00
 ---
 
 ![High resolution]({{ site.baseurl }}/images/jack4/Jack4_1_1.png)
