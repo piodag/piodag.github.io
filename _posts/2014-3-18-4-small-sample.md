@@ -9,7 +9,7 @@ and *Y* ( courtesy of SSSMT - Locarno ). Imagine that the target is to reject th
 *slope = 1* and *intercept = 0*.
 
 
-|   Meth.   |     S_1     |     S_2     |     S_3     |     S_4     |     S_5     |     S_6     |     S_7     |
+|   Meth.   |  Sample 1   |   Sample 2  |   Sample 3  |   Sample 4  |   Sample 5  |  Sample 6   |  Sample 7   |
 | :-------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
 |     X     |     38.0    |     39.8    |     38.0    |     26.9    |     37.5    |     33.2    |     36.9    |
 |     Y     |     30.8    |     33.7    |     26.1    |     21.5    |     33.9    |     26.9    |     29.7    |
