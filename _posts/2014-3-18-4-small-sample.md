@@ -10,10 +10,10 @@ and *Y*, courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/ho
 
 
 
-|   Method   |   Sample 1  |   Sample 2  |   Sample 3  |   Sample 4  |   Sample 5  |  Sample 6   |  Sample 7   |
+|   Method   |   Sample 1&emsp;  |   Sample 2  |   Sample 3  |   Sample 4  |   Sample 5  |  Sample 6   |  Sample 7   |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
-|     X      |     38.0    |     39.8    |     38.0    |     26.9    |     37.5    |     33.2    |     36.9    |
-|     Y      |     30.8    |     33.7    |     26.1    |     21.5    |     33.9    |     26.9    |     29.7    |
+|     X      |     38.0&emsp;    |     39.8    |     38.0    |     26.9    |     37.5    |     33.2    |     36.9    |
+|     Y      |     30.8&emsp;    |     33.7    |     26.1    |     21.5    |     33.9    |     26.9    |     29.7    |
 
 Table of the data set
 
