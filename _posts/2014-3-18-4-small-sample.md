@@ -16,3 +16,6 @@ and *Y* ( courtesy of SSSMT - Locarno ). Imagine that the target is to reject th
 
 
 
+With Bayesian Deming regression paired with a MD test it is possible. The simulation is run with *df = 1* to provide maximal robustness.
+
+![Small sample BE plot]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
