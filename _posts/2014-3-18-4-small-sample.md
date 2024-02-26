@@ -10,10 +10,10 @@ and *Y*, courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/ho
 
 
 
-|   Method   |   Sample 1&emsp;  |   Sample 2  |   Sample 3  |   Sample 4  |   Sample 5  |  Sample 6   |  Sample 7   |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
-|     X      |     38.0&emsp;    |     39.8    |     38.0    |     26.9    |     37.5    |     33.2    |     36.9    |
-|     Y      |     30.8&emsp;    |     33.7    |     26.1    |     21.5    |     33.9    |     26.9    |     29.7    |
+|   Method&emsp;   |   Sample 1&emsp;  |   Sample 2&emsp;  |   Sample 3&emsp;  |   Sample 4&emsp;  |   Sample 5&emsp;  |  Sample 6&emsp;   |  Sample 7   |
+| :--------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------: |
+|     X&emsp;      |     38.0&emsp;    |     39.8&emsp;    |     38.0&emsp;    |     26.9&emsp;    |     37.5&emsp;    |     33.2&emsp;    |     36.9    |
+|     Y&emsp;      |     30.8&emsp;    |     33.7&emsp;    |     26.1&emsp;    |     21.5&emsp;    |     33.9&emsp;    |     26.9&emsp;    |     29.7    |
 
 Table of the data set
 
@@ -38,10 +38,10 @@ Here below the table for the classical (frequentist) Deming results
 
 
 
-|           |       EST   |         SE  |        LCI  |       UCI  |
-|:----------|----------:  |-----------: |-----------: |----------: |
-| Intercept | \-7.393668  | 10.8756262  | \-35.350355 | 20.563020  |
-| Slope     |  1.016203   |  0.3022048  |   0.239361  |  1.793046  |
+|                 |       EST&emsp;   |         SE&emsp;  |        LCI&emsp;  |       UCI  |
+|:----------------|----------------:  |-----------------: |-----------------: |----------: |
+| Intercept&emsp; | \-7.393668&emsp;  | 10.8756262&emsp;  | \-35.350355&emsp; | 20.563020  |
+| Slope&emsp;     |  1.016203&emsp;   |  0.3022048&emsp;  |   0.239361&emsp;  |  1.793046  |
 
 
 The CI are slightly wider than with the Bayesian Deming method and also
@@ -53,10 +53,10 @@ Here below the table for the PBequi alternative results.
 
 
 
-|           |       EST |         SE |         LCI |        UCI |
-|:----------|----------:|-----------:|------------:|-----------:|
-| Intercept | \-7.306061 | 111.345365 | \-293.528433 | 278.916312 |
-| Slope     |  1.030303 |   3.017419 |   \-6.726219 |   8.786825 |
+|                 |       EST&emsp;  |         SE&emsp; |         LCI&emsp;  |  UCI&emsp; |
+|:----------------|-----------------:|-----------------:|-------------------:|-----------:|
+| Intercept&emsp; | \-7.306061&emsp; | 111.345365&emsp; | \-293.528433&emsp; | 278.916312 |
+| Slope&emsp;     |  1.030303&emsp;  |   3.017419&emsp; |   \-6.726219&emsp; |   8.786825 |
 
 
 
