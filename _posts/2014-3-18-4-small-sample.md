@@ -60,7 +60,7 @@ Here below the table for the PBequi alternative results.
 
 
 
-Apparently PBequi is not able to provide meaningful CI for such a small
+Apparently *PBequi* is not able to provide meaningful CI for such a small
 data set.
 
 
