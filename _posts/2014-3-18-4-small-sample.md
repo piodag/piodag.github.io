@@ -36,7 +36,7 @@ analytical regressions obtained with the package *{mcr}*. With both
 methods a MD approach via bootstrap is impossible because of the small
 size of the sample.
 
-Here below the table for the classical (frequentist) Deming results
+Here below the table for the classical (frequentist) Deming regression results
 
 
 
@@ -46,12 +46,12 @@ Here below the table for the classical (frequentist) Deming results
 | Slope&emsp;     |  1.016203&emsp;   |  0.3022048&emsp;  |   0.239361&emsp;  |  1.793046  |
 
 
-The CI are slightly wider than with the Bayesian Deming method and also
+The CIs are slightly wider than with the Bayesian Deming method and also
 a little shifted compared to the HDI intervals. This is not surprising
 since slope and intercept are not normally distributed. HDI for the CI
 can mitigate the *right side excess* previously reported.
 
-Here below the table for the PBequi alternative results.
+Here below the table for the PBequi regression results.
 
 
 
