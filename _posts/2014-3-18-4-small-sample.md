@@ -4,9 +4,11 @@ title: "Bayesian Deming regression - Small sample example"
 date: 2024-02-25 18:40:00
 ---
 
-Imagine a data set of only 7 pairs of observation for two methods *X*
-and *Y*, courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/home/sss/). Imagine that the target is to reject the null Hypothesis of
+Imagine a data set of only 7 pairs of observation[^dsource] for two methods *X*
+and *Y*. Imagine that the target is to reject the null Hypothesis of
 *slope = 1* and *intercept = 0*. The *rstan* sampling was performed with *set.seed(20240225)* on Debian Trixie with amd64 architecture.
+
+[^dsource]: Courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/home/sss/)
 
 
 
@@ -15,7 +17,6 @@ and *Y*, courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/ho
 |     X&emsp;      |     38.0&emsp;    |     39.8&emsp;    |     38.0&emsp;    |     26.9&emsp;    |     37.5&emsp;    |     33.2&emsp;    |     36.9    |
 |     Y&emsp;      |     30.8&emsp;    |     33.7&emsp;    |     26.1&emsp;    |     21.5&emsp;    |     33.9&emsp;    |     26.9&emsp;    |     29.7    |
 
-Table of the data set
 
 With Bayesian Deming regression paired with a MD test it is possible. The simulation is run with *df = 1* to provide maximal robustness.
 
