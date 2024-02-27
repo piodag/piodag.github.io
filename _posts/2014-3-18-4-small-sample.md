@@ -4,7 +4,7 @@ title: "Bayesian Deming regression - Small sample example"
 date: 2024-02-25 18:40:00
 ---
 
-Imagine a data set of only 7 pairs of observation[^dsource] for two methods *X*
+Imagine a data set of only 7 pairs of observations[^dsource] for two methods *X*
 and *Y*. Imagine that the target is to reject the null Hypothesis of
 *slope = 1* and *intercept = 0*. The *rstan* sampling was performed with *set.seed(20240225)* on Debian Trixie with amd64 architecture.
 
