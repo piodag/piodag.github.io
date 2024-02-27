@@ -4,6 +4,8 @@ title: "Bayesian Deming regression - Small sample example"
 date: 2024-02-25 18:40:00
 ---
 
+![Small sample BE plot]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
+
 Imagine a data set of only 7 pairs of observations[^dsource] for two methods *X*
 and *Y*. Imagine that the target is to **reject** the null Hypothesis of
 *slope = 1* and *intercept = 0*. 
@@ -20,7 +22,6 @@ and *Y*. Imagine that the target is to **reject** the null Hypothesis of
 
 With Bayesian Deming regression paired with a MD test this is possible. The simulation is run with *df = 1* to provide maximal robustness. The *rstan* sampling was performed with *set.seed(20240225)* on *Debian Trixie* with amd64 architecture.
 
-![Small sample BE plot]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
 
 The classical CI approach has no hope, see the purple HDI-CI box. The data set is too small, even for the
 Bayesian Deming regression. But the result of a Bayesian Deming regression can be tested with the Mahalanobis distance MD method. The power of the MD testing method is so much higher than it is still possible to reject the null hypothesis, even with such a reduced data set. The probability of the MD test (the Chi-sq. p-value with df=2 
