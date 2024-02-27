@@ -18,7 +18,7 @@ and *Y*. Imagine that the target is to reject the null Hypothesis of
 |     Y&emsp;      |     30.8&emsp;    |     33.7&emsp;    |     26.1&emsp;    |     21.5&emsp;    |     33.9&emsp;    |     26.9&emsp;    |     29.7    |
 
 
-With Bayesian Deming regression paired with a MD test it is possible. The simulation is run with *df = 1* to provide maximal robustness.
+With Bayesian Deming regression paired with a MD test this is possible. The simulation is run with *df = 1* to provide maximal robustness.
 
 ![Small sample BE plot]({{ site.baseurl }}/images/small_size_example/unnamed-chunk-2-1.png)
 
