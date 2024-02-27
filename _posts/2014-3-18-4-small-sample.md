@@ -8,7 +8,7 @@ Imagine a data set of only 7 pairs of observation[^dsource] for two methods *X*
 and *Y*. Imagine that the target is to reject the null Hypothesis of
 *slope = 1* and *intercept = 0*. The *rstan* sampling was performed with *set.seed(20240225)* on Debian Trixie with amd64 architecture.
 
-[^dsource]: Courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/home/sss/)
+[^dsource]: Courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/home/sss/).
 
 
 
