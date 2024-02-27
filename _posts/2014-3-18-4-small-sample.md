@@ -2,11 +2,12 @@
 layout: post
 title: "Bayesian Deming regression - Small sample example"
 date: 2024-02-25 18:40:00
+use_math: true
 ---
 
 Imagine a data set of only 7 pairs of observations[^dsource] for two methods *X*
-and *Y*. Imagine that the target is to reject the null Hypothesis of
-*slope = 1* and *intercept = 0*. The *rstan* sampling was performed with *set.seed(20240225)* on Debian Trixie with amd64 architecture.
+and *Y*. Imagine that the target is to **reject** the null Hypothesis of
+*slope = 1* and *intercept = 0* $$ H_{0}: \beta_{0}=0 \land \beta_{1}=1 $$. The *rstan* sampling was performed with *set.seed(20240225)* on Debian Trixie with amd64 architecture.
 
 [^dsource]: Courtesy of [SSSMT - Locarno](https://www.cpslocarno.ti.ch/index.php/home/sss/).
 
