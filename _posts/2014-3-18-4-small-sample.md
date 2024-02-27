@@ -2,7 +2,6 @@
 layout: post
 title: "Bayesian Deming regression - Small sample example"
 date: 2024-02-25 18:40:00
-use_math: true
 ---
 
 Imagine a data set of only 7 pairs of observations[^dsource] for two methods *X*
