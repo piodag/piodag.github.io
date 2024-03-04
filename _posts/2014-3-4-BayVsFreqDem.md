@@ -93,8 +93,8 @@ slightly less conservative.
 When comparing the robust methods, the most striking thing is that the
 confidence intervals of the PBequi regression show a suspicious integer
 value of 1 as the upper limit of the slope. This phenomenon is similar
-to what was reported in 2021 on arxiv. The 2D box ellipses plot of the
-bootstrapped pairs can elucidate the situation.
+to what was reported in [2021 on arxiv]((https://arxiv.org/pdf/2105.04628.pdf)).
+The 2D box ellipses plot of the bootstrapped pairs can elucidate the situation.
 
 ### Box Ellipses plots: the non robust Deming regressions
 
