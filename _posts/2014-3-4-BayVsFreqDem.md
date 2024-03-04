@@ -94,7 +94,7 @@ When comparing the robust methods, the most striking thing is that the
 confidence intervals of the PBequi regression show a suspicious integer
 value of 1 as the upper limit of the slope. This phenomenon is similar
 to what was reported in [2021 on arxiv]((https://arxiv.org/pdf/2105.04628.pdf)).
-The 2D box ellipses plot of the bootstrapped pairs can elucidate the situation.
+The 2D box ellipses (BE) plot of the bootstrapped pairs can elucidate the situation.
 
 ### Box Ellipses plots: the non robust Deming regressions
 
@@ -114,8 +114,8 @@ The Mahalanobis distance testing is in all cases much more powerful. The
 equivalence of the two methods can be safely rejected with just 20
 samples. At the same time the 2D plot also offers an insight into the
 quality of the regressions and of the data. This is especially worth for
-bootstrapped methods. Clearly PBequi combined with bootstrap is shows
-from an ideal pairs plot.
+bootstrapped methods. Clearly PBequi combined with bootstrap shows a far
+from ideal BE plot.
 
 ### Analitical equivariant Passing Bablock
 
