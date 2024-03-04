@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bayesian vs frequentist Deming regression comparison
-date: 2024-02-03 18:40:00
+date: 2024-03-04 18:40:00
 ---
 
 ## The glycHem data set
