@@ -117,7 +117,7 @@ quality of the regressions and of the data. This is especially worth for
 bootstrapped methods. Clearly PBequi combined with bootstrap shows a far
 from ideal BE plot.
 
-### Analitical equivariant Passing Bablock
+### Analytical equivariant Passing Bablock
 
 It is also worth comparing the bootstrap confidence intervals with the
 analytical ones for the PBequi method.
