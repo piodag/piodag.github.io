@@ -32,7 +32,7 @@ package.
     ## Intercept 0.2035609 NA -0.2936662 0.6669625
     ## Slope     0.9142874 NA  0.8355696 1.0012592
 
-### Bayesian HDI - CI
+### Bayesian Deming- CI
 
     ## Inference for Stan model: bdpreg_homotrunc.
     ## 4 chains, each with iter=2000; warmup=1000; thin=1; 
@@ -68,7 +68,7 @@ slightly less conservative.
     ## Intercept 0.2097009 NA -0.3500000 0.7042857
     ## Slope     0.9128716 NA  0.8285714 1.0000000
 
-### Bayesian robust regression CI (df=1):
+### Bayesian Deming robust regression CI (df=1):
 
     ## Inference for Stan model: bdpreg_homotrunc.
     ## 4 chains, each with iter=2000; warmup=1000; thin=1; 
