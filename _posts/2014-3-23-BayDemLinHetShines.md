@@ -1,5 +1,6 @@
 ---
-Linear heteroscedastic Bayesian Deming regression - A case study
+layout:post
+title: Linear heteroscedastic Bayesian Deming regression - A case study
 date: 2024-03-24 23:10:00
 ---
 
