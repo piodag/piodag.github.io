@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linear heteroscedastic Bayesian Deming regression, a case study
+date: 2024-03-24 08:40:00
 ---
 
 ## Abstract
