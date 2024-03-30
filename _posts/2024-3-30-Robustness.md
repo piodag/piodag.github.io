@@ -8,7 +8,7 @@ I just uploaded a video showing the differences between typical method
 comparison regressions when outliers with leverage are massively present
 in the data.
 
-[Robustness video](https://www.youtube.com/watch?v=GgXMNL8TXkQ)
+Here: [robustness video](https://www.youtube.com/watch?v=GgXMNL8TXkQ)
 
 Bayesian Deming methods turn out to be particularly effective already at
 df=6 or df=5 for the T-distributed error term setting.
