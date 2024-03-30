@@ -13,3 +13,5 @@ df=6 or df=5 for the T-distributed error term setting.
 
 Nonparametric methods are not immune to coefficient shifting due to
 outliers and are less robust than expected.
+
+http://[Robustness video](https://www.youtube.com/watch?v=GgXMNL8TXkQ)
