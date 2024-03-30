@@ -4,8 +4,6 @@ title: Bayesian Deming robustness with a high percentage of outliers
 date: 2024-03-30 16:30:00
 ---
 
-[Robustness video](https://www.youtube.com/watch?v=GgXMNL8TXkQ)
-
 I just uploaded a video showing the differences between typical method
 comparison regressions when outliers with leverage are massively present
 in the data.
