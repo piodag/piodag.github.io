@@ -5,6 +5,8 @@ title: Bayesian Deming regression, Type II error with 2x2 rounded data
 
 ![CImethod]({{ site.baseurl }}/images/BDpower_files/figure-gfm/CImethod-1.png)
 
+## Classic CI testing
+
 Very preliminary results about Bayesian Deming method Type II error are
 reported here. Due to computational constraints the experiment has been
 limited to 250 regressions per point. The CIs for Bayesian Deming are
@@ -25,6 +27,8 @@ Finally, the bias for the equivariant PaBa method is once again confirmed
 (green data in the plot).
 
 Further investigations are needed to compare quantiles CIs to HDI CIs
+
+## Mahalanobis distance (MD) testing
 
 ![MDmethod]({{ site.baseurl }}/images/BDpower_files/figure-gfm/MDmethod-1.png)
 
