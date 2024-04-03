@@ -21,7 +21,7 @@ as expected from previous experiments about Type I error. The df=2 model
 shows also some lower ratio at slope = 1 but the difference with df=5 is
 minimal.
 
-Finally, he bias for the equivariant PaBa method is once again confirmed
+Finally, the bias for the equivariant PaBa method is once again confirmed
 (green data in the plot).
 
 Further investigations are needed to compare quantiles CIs to HDI CIs
