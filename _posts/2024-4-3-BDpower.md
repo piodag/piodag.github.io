@@ -14,8 +14,8 @@ The well known bias found in Passing Bablok methods caused by low
 precision data set is not found in Bayesian Deming regressions.
 
 The power curve of the frequentist Deming with bootstrap / BCa CI is
-almost indistinguishable from its Bayesian non robust counterpart. Also
-the Bayesian Deming regression run with df=5 is indistinguishable. The
+almost indistinguishable from its Bayesian non robust counterpart. The Bayesian
+Deming regression run with df=5 is also indistinguishable. The
 Bayesian regression run at df=1 shows a lower acceptance at slope = 1,
 as expected from previous experiments about Type I error. The df=2 model
 shows also some lower ratio at slope = 1 but the difference with df=5 is
