@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Bayesian Deming regression, Type II error with 2x2 rounded data
-date: 2024-04-03 10:40:00
 ---
 
 ![CImethod]({{ site.baseurl }}/images/BDpower_files/figure-gfm/CImethod-1.png)
