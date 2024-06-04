@@ -7,7 +7,7 @@ date: 2024-06-04 00:40:00
 ![M vs MM]({{ site.baseurl }}/images/2024-06-04-power-analysis_files/unnamed-chunk-1-1.png)
 
 We would like to report the results of a power analysis performed with
-the new M- and MM-Deming regressions available in the mcrPioda package.
+the new M- and MM-Deming regressions available in the [mcrPioda](https://cran.r-project.org/package=mcrPioda) package.
 As expected the M and MM regressions are slightly less powerful
 (more conservative) than the non robust classical Deming regression.
 Symmetry is rather good in all cases; no “Passing Bablok bias” is visible.
