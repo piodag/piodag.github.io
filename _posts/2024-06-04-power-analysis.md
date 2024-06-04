@@ -14,7 +14,7 @@ Symmetry is rather good in all cases; no “Passing Bablok bias” is visible.
 In general the right side excess (r.s.e.) is better (lower) with the
 bootstrap/BCa CIs in all cases.
 
-See the tabled data at the bottom of this post for the area under the curve(AUC)
+See the tabled data at the bottom of this post for the area under the curve (AUC)
 and the r.s.e % of each method.
 
 ![MD power]({{ site.baseurl }}/images/2024-06-04-power-analysis_files/unnamed-chunk-2-1.png)
