@@ -57,7 +57,7 @@ can be evaluated twice, once for classic CI and once for the MD method)
 | Deming BCa CI       |      0.4985453 | \-0.2909385 |
 | Deming jack. CI     |      0.5066769 |  1.3353888 |
 | MDeming jack. CI    |      0.5080147 |  1.6029369 |
-| MDeming BCa CI      |      0.4999662 | -0.0067522 |
+| MDeming BCa CI      |      0.4999662 | \-0.0067522 |
 | NgMMDeming jack. CI |      0.5112049 |  2.2409829 |
 | PIMMDeming jack. CI |      0.5111822 |  2.2364452 |
 | PIMMDeming BCa CI   |      0.5009694 |  0.1938732 |
