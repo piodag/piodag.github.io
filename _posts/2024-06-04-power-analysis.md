@@ -30,7 +30,7 @@ are higher. This confirms previous results.
 
 It is worth noting that PiMMDeming and NgMMDeming provide almost the
 exact same results with the jackknife experiment. This is an indirect
-clue that the new MM-Deming algorithm does not depends on its iteration
+clue that the new MM-Deming algorithm does not depend on its iterations
 starting values. It’s hard to graphically show this fact. For this
 reason, and expecting a similar result for the BCa experiment, the
 bootstrap procedure has not been performed with the NgMMDeming
