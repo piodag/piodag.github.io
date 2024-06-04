@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mcrPioda package scrutiny - M- and MM-Deming at work
+title: R mcrPioda-1.3.3 package - New M- and MM-Deming regressions
 date: 2024-06-04 00:40:00
 ---
 
@@ -8,17 +8,19 @@ date: 2024-06-04 00:40:00
 
 We would like to report the results of a power analysis performed with
 the new M- and MM-Deming regressions available in the mcrPioda package.
-As expected the M and MM regressions are slightly less powerful than the
-non robust classical Deming regression. Symmetry is rather good in all
-cases; no “Passing Bablok bias” is visible. In general the right side
-excess (r.s.e.) is better (lower) with the bootstrap/BCa CIs in all
-cases. See the tabled data below for area under the curve (AUC) and the
-r.s.e % of each method.
+As expected the M and MM regressions are slightly less powerful
+(more conservative) than the non robust classical Deming regression.
+Symmetry is rather good in all cases; no “Passing Bablok bias” is visible.
+In general the right side excess (r.s.e.) is better (lower) with the
+bootstrap/BCa CIs in all cases.
+
+See the tabled data at the bottom of this post for the area under the curve(AUC)
+and the r.s.e % of each method.
 
 ![MD power]({{ site.baseurl }}/images/2024-06-04-power-analysis_files/unnamed-chunk-2-1.png)
 
 The Mahalanobis Distance (MD) testing on the bootstrap pairs is, as
-expected, much more powerful. The M- and MM-Deming are again (as usual)
+usual, much more powerful. The M- and MM-Deming are again (as usual)
 more conservative than the non robust Deming regression. The symmetry is
 very good. The type I error at slope = 1 is smaller with the MD testing
 compared to the classical CI method; the cusps of the bell shaped curves
