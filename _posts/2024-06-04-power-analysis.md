@@ -51,21 +51,21 @@ Here below a table of the empirical integrals and of the r.s.e % found
 for the 13 different methods (10 regressions, among them 3 bootstrap/BCa
 can be evaluated twice, once for classic CI and once for the MD method)
 
-|         Method        |     right side AUC     |    r.s.e %   |
-| :-------------------- | ---------------------: | -----------: |
-|  Deming anal. CI      |      0.5066055&emsp;   |   1.3210965  |
-|  Deming BCa CI        |      0.4985453&emsp;   |  \-0.2909385  |
-|  Deming jack. CI      |      0.5066769&emsp;   |   1.3353888  |
-|  MDeming jack. CI     |      0.5080147&emsp;   |   1.6029369  |
-|  MDeming BCa CI       |      0.4999662&emsp;   |  \-0.0067522  |
-|  NgMMDeming jack. CI  |      0.5112049&emsp;   |   2.2409829  |
-|  PIMMDeming jack. CI  |      0.5111822&emsp;   |   2.2364452  |
-|  PIMMDeming BCa CI    |      0.5009694&emsp;   |   0.1938732  |
-|  PBequi anal. CI      |      0.5278725&emsp;   |   5.5744966  |
-|  PaBa anal. CI        |      0.7128449&emsp;   |  42.5689747  |
-|  Deming BCa MD        |      0.5028622&emsp;   |   0.5724476  |
-|  MDeming BCa MD       |      0.5041070&emsp;   |   0.8213957  |
-|  PiMMDeming BCa MD    |      0.5036048&emsp;   |   0.7209574  |
+|         Method        |     right side AUC     |     r.s.e %    |
+| :-------------------- | ---------------------: | -------------: |
+|  Deming anal. CI      |      0.5066055&emsp;   |    1.3210965   |
+|  Deming BCa CI        |      0.4985453&emsp;   |   \-0.2909385   |
+|  Deming jack. CI      |      0.5066769&emsp;   |    1.3353888   |
+|  MDeming jack. CI     |      0.5080147&emsp;   |    1.6029369   |
+|  MDeming BCa CI       |      0.4999662&emsp;   |   \-0.0067522   |
+|  NgMMDeming jack. CI  |      0.5112049&emsp;   |    2.2409829   |
+|  PIMMDeming jack. CI  |      0.5111822&emsp;   |    2.2364452   |
+|  PIMMDeming BCa CI    |      0.5009694&emsp;   |    0.1938732   |
+|  PBequi anal. CI      |      0.5278725&emsp;   |    5.5744966   |
+|  PaBa anal. CI        |      0.7128449&emsp;   |   42.5689747   |
+|  Deming BCa MD        |      0.5028622&emsp;   |    0.5724476   |
+|  MDeming BCa MD       |      0.5041070&emsp;   |    0.8213957   |
+|  PiMMDeming BCa MD    |      0.5036048&emsp;   |    0.7209574   |
 
 In general jackknifed and analytic CI show higher r.s.e than
 bootstrap/BCa CI and the bootstrap method is the most symmetric one.
