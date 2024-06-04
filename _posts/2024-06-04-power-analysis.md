@@ -4,8 +4,6 @@ title: mcrPioda package scrutiny - M- and MM-Deming at work
 date: 2024-06-04 00:40:00
 ---
 
-## M- and MM-Deming power analysis
-
 ![M vs MM]({{ site.baseurl }}/images/2024-06-04-power-analysis_files/unnamed-chunk-1-1.png)
 
 We would like to report the results of a power analysis performed with
