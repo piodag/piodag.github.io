@@ -4,7 +4,7 @@ title: Requiem for Passing Bablok
 date: 2024-06-05 06:40:00
 ---
 
-![PB bias]({{ site.baseurl }}/images/2024-06-04-power-analysis_files/unnamed-chunk-3-1.png)
+![PB bias]({{ site.baseurl }}/images/2024-06-04-power-analysis_files/unnamed-chunk-4-1.png)
 
 Passing Bablok (PaBa) regressions suffer from the presence of ties. A hidden source of ties is given by low precision data. In fact if the precision is low the pairwise slope calculation delivers a massive amount of slopes with the same value even if different pairs of points are used. This leads to strong erratic behaviors of the algorithms, especially for the CI determination.
 
