@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Requiem for Passing Bablok
+title: Requiem for Passing Bablok (for most uses)
 date: 2024-06-05 06:40:00
 ---
 
