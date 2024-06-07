@@ -16,7 +16,7 @@ Basically, the algorithm:
 
 for 1 to N:
 
-  - generates a new data set (n=100 data) with 4 significant figures;
+  - generates a new data set (n=100 data) with 4 significant digits;
   - calculates all possible pairwise slopes;
   - determines the (b > -1) offset;
   - round off the data set to 2 significant figures;
