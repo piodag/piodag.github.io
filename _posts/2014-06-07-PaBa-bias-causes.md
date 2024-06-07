@@ -24,7 +24,7 @@ for 1 to N:
   - determines this second (b > -1) offset;
   - calculates the difference between the two offsets.
 
-The histogram clearly shows that the **differences are non-zero on average**. Rounding causes a **systematic reduction in the offset** and thus, also in the median slope.
+The histogram clearly shows that the **differences are non-zero on average**. Rounding causes a **systematic reduction in the offset** and thus, indirectly, also in the median slope.
 
 This experiment suggests a potential reason for the empirical observation made with the previous simulations on regression power.
 
