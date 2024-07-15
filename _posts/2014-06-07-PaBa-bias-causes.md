@@ -30,4 +30,4 @@ This experiment suggests a potential reason for the empirical observation made w
 
 ## Remark
 
-The data generating function is the same used in the [2021 paper](https://arxiv.org/pdf/2105.04628). Scripts are available on request, of course.
+The data generating function is the same used in the [2021 paper](https://arxiv.org/pdf/2105.04628). Scripts are available on request.
